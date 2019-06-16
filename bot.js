@@ -3,10 +3,10 @@ const bot = new Discord.Client()
 const request = require('request');
 const channelid = "";
 const refresh = 10;
-const maxPlayers = '64';
-const wyspaName = 'Wyspa 1';
-const token = "";
-const wyspaIp = "";
+const maxPlayers = '32';
+const wyspaName = 'Scrim RP WL OFF';
+const token = "NTg5Nzg0MDExNzg2OTQ0NTMy.XQZ_2Q.zahzEMPaOAVGS9xLQq5-WL49Kpg";
+const wyspaIp = "51.255.28.72";
 const wyspaOff = "Wyspa OFF"
 
 bot.on('ready', async () => {
